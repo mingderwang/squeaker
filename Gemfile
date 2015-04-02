@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'figaro'
 gem 'rails', '3.1.3'
 
 # Bundle edge Rails instead:
@@ -33,4 +34,8 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
+  gem 'cucumber-rails', '1.2.1'
+  gem 'rspec-rails', '2.7.0'
+  gem 'database_cleaner', '0.7.0'
+  gem 'factory_girl', '2.3.2'
 end
